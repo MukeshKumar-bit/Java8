@@ -12,5 +12,7 @@ public class Program9 {
         System.out.println(max);
         int min=list.stream().min(Comparator.naturalOrder()).get();
         System.out.println(min);
+        int num=list.stream().max(Comparator.reverseOrder()).get();
+        System.out.println(num);
     }
 }
