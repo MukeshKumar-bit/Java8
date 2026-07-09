@@ -10,7 +10,7 @@ public class Program12 {
     public static void main(String[] args) {
         String inputString="Java Concept of the day";
         java.util.Map<String,Long> count =Arrays.stream(inputString.split("")).collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new,Collectors.counting()));
-    String s=count.entrySet().stream().filter(e->e.getValue()==1).map(e->e.getKey()).findFirst().get();
-        System.out.println(s);
+    String sij=count.entrySet().stream().filter(e->e.getValue()==1).map(e->e.getKey()).findFirst().get();
+        System.out.println(sij);
     }
 }
