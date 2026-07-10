@@ -1,0 +1,530 @@
+2026-07-10 08:35:10,183 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2026-07-10 08:36:18,156 [Worker-3: Importing Maven projects] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project Employee already exists
+2026-07-10 08:37:22,090 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.employee:EmployeeDemo:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\EmployeeDemo\pom.xml.
+2026-07-10 08:37:25,365 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.employeeinterviewquestion:EmployeeDemo1:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\EmployeeDemo1\pom.xml.
+2026-07-10 08:37:28,147 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.flight:Customer-Service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Flight Managment System\Customer-Service\pom.xml.
+2026-07-10 08:37:36,302 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:Eureka-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Flight Managment System\Eureka-service\pom.xml.
+2026-07-10 08:37:39,580 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.george:PlaneAPITest:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Flight-Forecaster-main\KafkaPlaneAPIVisual\pom.xml.
+2026-07-10 08:37:55,332 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-boarding-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-boarding-service\pom.xml.
+2026-07-10 08:38:04,242 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-booking-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-bookings-service\pom.xml.
+2026-07-10 08:38:05,747 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-checkin-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-checkin-service\pom.xml.
+2026-07-10 08:38:06,112 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-security-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-checking-service\pom.xml.
+2026-07-10 08:38:06,583 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-flight-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-flight-service\pom.xml.
+2026-07-10 08:38:08,072 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-pilot-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-pilot-service\pom.xml.
+2026-07-10 08:38:08,597 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:api-gateway:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\api-gateway\pom.xml.
+2026-07-10 08:38:09,673 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:eureka-server:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\eureka-server\pom.xml.
+2026-07-10 08:38:10,583 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jwt:jwt:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\jwt\pom.xml.
+2026-07-10 08:38:13,004 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.javakafka:javaKafka:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\KAFKA\javaKafka\javaKafka\pom.xml.
+2026-07-10 08:38:15,484 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.appsdeveloper.ws:ProductsMicroservice:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\KAFKA\ProductsMicroservice\pom.xml.
+2026-07-10 08:38:17,570 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.tpd:kafka-example:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\kafka-spring-boot-example-master\pom.xml.
+2026-07-10 08:38:19,191 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:config-server:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\config-server\pom.xml.
+2026-07-10 08:38:22,275 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:department-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\department-service\pom.xml.
+2026-07-10 08:38:23,570 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.question:question:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\question\pom.xml.
+2026-07-10 08:38:25,356 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.quiz:quiz:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\quiz\pom.xml.
+2026-07-10 08:38:25,618 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:service-registry:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\service-registry\pom.xml.
+2026-07-10 08:38:26,969 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.userservices:userservice:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\userservice\pom.xml.
+2026-07-10 08:38:29,856 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dxbair.services:flight-booking:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Project\flight-booking-master\flight-booking-master\pom.xml.
+2026-07-10 08:38:33,483 [Worker-3: Importing Maven projects] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.21.0-GA during dependency collection step for project (use -X to see details)
+2026-07-10 08:38:34,536 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.org:FMS-SpringBoot-Backend:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Project\Flight-Management-System-master\Flight-Management-System-master\FMS-SpringBoot-Backend\pom.xml.
+2026-07-10 08:38:37,217 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/oracle/ojdbc8/12.2.0.1/ojdbc8-12.2.0.1.pom
+2026-07-10 08:38:42,913 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mycompany:FlightTicket:1.0-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Project\JAVA-Flight-Management-System-main\JAVA-Flight-Management-System-main\FlightTicket\pom.xml.
+2026-07-10 08:38:45,260 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.4.0/plexus-java-1.4.0.jar
+2026-07-10 08:38:45,300 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.demo:demo:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Project case study\demo\pom.xml.
+2026-07-10 08:38:46,930 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jpa:bootjpaexample:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Spring Boot\JPAEXAMPLE\pom.xml.
+2026-07-10 08:38:47,544 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringBootProject:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Spring Boot\SpringBootProject\pom.xml.
+2026-07-10 08:38:47,778 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring2:SpringBootProject-2:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Spring Boot\SpringBootProject-2\pom.xml.
+2026-07-10 08:38:47,996 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring2:SpringBootProjectJDBCCURDOperation:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Spring Boot\SpringBootProjectJDBCCURDOperation\pom.xml.
+2026-07-10 08:38:48,198 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springboot:SpringByDeepak:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Spring Boot\SpringByDeepak\pom.xml.
+2026-07-10 08:38:48,404 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.employee:Employee:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\Employee\pom.xml.
+2026-07-10 08:38:49,062 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.product:ProductService:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\ProductService\pom.xml.
+2026-07-10 08:38:49,341 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hardik:personal-finance-management-system:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\Repeat\NEW PROJECT\personal-finance-management-system-main\pom.xml.
+2026-07-10 08:38:52,470 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:Spring-security:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\Repeat\Spring-security\pom.xml.
+2026-07-10 08:38:54,718 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\SpringBootExample\pom.xml.
+2026-07-10 08:38:55,000 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.p:SpringHibernateByRemesh:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\SpringHibernateByRemesh\pom.xml.
+2026-07-10 08:39:53,271 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/3.47.1/swagger-ui-3.47.1-javadoc.jar
+2026-07-10 08:39:53,277 [Worker-10: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.webjars:swagger-ui:3.47.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:swagger-ui:jar:javadoc:3.47.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-07-10 08:40:14,096 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/5.17.14/swagger-ui-5.17.14-javadoc.jar
+2026-07-10 08:40:14,100 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.webjars:swagger-ui:5.17.14
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:swagger-ui:jar:javadoc:5.17.14
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-07-10 08:41:13,603 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/3.0.3/spring-cloud-starter-gateway-3.0.3-javadoc.jar
+2026-07-10 08:41:13,685 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/3.0.3/spring-cloud-starter-gateway-3.0.3-javadoc.jar
+2026-07-10 08:41:13,696 [Worker-2: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.cloud:spring-cloud-starter-gateway:3.0.3
+2026-07-10 08:41:51,875 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jwt:jwt:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\jwt\pom.xml.
+2026-07-10 08:41:52,812 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Customer-Service/src/main/java
+2026-07-10 08:41:52,821 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer-Service/src/main/resources
+2026-07-10 08:41:52,823 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer-Service/src/main/resources
+2026-07-10 08:41:52,826 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Customer-Service/src/test/java
+2026-07-10 08:41:52,829 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer-Service/src/test/resources
+2026-07-10 08:41:53,612 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hardik:personal-finance-management-system:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\Repeat\NEW PROJECT\personal-finance-management-system-main\pom.xml.
+2026-07-10 08:42:01,530 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-pilot-service/src/main/java
+2026-07-10 08:42:01,536 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-pilot-service/src/main/resources
+2026-07-10 08:42:01,539 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-pilot-service/src/main/resources
+2026-07-10 08:42:01,542 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-pilot-service/src/test/java
+2026-07-10 08:42:01,544 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-pilot-service/src/test/resources
+2026-07-10 08:42:04,778 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-security-service/src/main/java
+2026-07-10 08:42:04,780 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-security-service/src/main/resources
+2026-07-10 08:42:04,782 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-security-service/src/main/resources
+2026-07-10 08:42:04,783 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-security-service/src/test/java
+2026-07-10 08:42:04,784 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-security-service/src/test/resources
+2026-07-10 08:42:07,203 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /department-service/src/main/java
+2026-07-10 08:42:07,205 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /department-service/src/main/resources
+2026-07-10 08:42:07,207 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /department-service/src/main/resources
+2026-07-10 08:42:07,207 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /department-service/src/test/java
+2026-07-10 08:42:07,209 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /department-service/src/test/resources
+2026-07-10 08:42:09,021 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeDemo/src/main/java
+2026-07-10 08:42:09,022 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo/src/main/resources
+2026-07-10 08:42:09,023 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo/src/main/resources
+2026-07-10 08:42:09,024 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeDemo/src/test/java
+2026-07-10 08:42:09,026 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo/src/test/resources
+2026-07-10 08:42:09,985 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProductService/src/main/java
+2026-07-10 08:42:09,986 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductService/src/main/resources
+2026-07-10 08:42:09,987 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductService/src/main/resources
+2026-07-10 08:42:09,988 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProductService/src/test/java
+2026-07-10 08:42:09,989 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductService/src/test/resources
+2026-07-10 08:42:11,070 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flight-booking/src/main/java
+2026-07-10 08:42:11,071 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /flight-booking/src/main/resources
+2026-07-10 08:42:11,072 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /flight-booking/src/main/resources
+2026-07-10 08:42:11,073 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flight-booking/src/test/java
+2026-07-10 08:42:11,075 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /flight-booking/src/test/resources
+2026-07-10 08:42:12,856 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FMS-SpringBoot-Backend/src/main/java
+2026-07-10 08:42:12,858 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FMS-SpringBoot-Backend/src/main/resources
+2026-07-10 08:42:12,860 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FMS-SpringBoot-Backend/src/main/resources
+2026-07-10 08:42:12,861 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FMS-SpringBoot-Backend/src/test/java
+2026-07-10 08:42:12,862 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FMS-SpringBoot-Backend/src/test/resources
+2026-07-10 08:42:14,233 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-registry/src/main/java
+2026-07-10 08:42:14,235 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-registry/src/main/resources
+2026-07-10 08:42:14,236 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-registry/src/main/resources
+2026-07-10 08:42:14,237 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-registry/src/test/java
+2026-07-10 08:42:14,238 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-registry/src/test/resources
+2026-07-10 08:42:16,124 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2026-07-10 08:42:16,125 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2026-07-10 08:42:16,126 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2026-07-10 08:42:16,127 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2026-07-10 08:42:16,128 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2026-07-10 08:42:17,752 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot/src/main/java
+2026-07-10 08:42:17,753 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot/src/main/resources
+2026-07-10 08:42:17,776 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot/src/main/resources
+2026-07-10 08:42:17,797 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot/src/test/java
+2026-07-10 08:42:17,798 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot/src/test/resources
+2026-07-10 08:42:19,359 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlightTicket/src/main/java
+2026-07-10 08:42:19,360 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FlightTicket/src/main/resources
+2026-07-10 08:42:19,361 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlightTicket/src/test/java
+2026-07-10 08:42:19,362 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FlightTicket/src/test/resources
+2026-07-10 08:42:20,440 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-flight-service/src/main/java
+2026-07-10 08:42:20,441 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-flight-service/src/main/resources
+2026-07-10 08:42:20,443 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-flight-service/src/main/resources
+2026-07-10 08:42:20,444 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-flight-service/src/test/java
+2026-07-10 08:42:20,447 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-flight-service/src/test/resources
+2026-07-10 08:42:22,751 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Employee/src/main/java
+2026-07-10 08:42:22,752 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Employee/src/main/resources
+2026-07-10 08:42:22,753 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Employee/src/main/resources
+2026-07-10 08:42:22,754 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Employee/src/test/java
+2026-07-10 08:42:22,755 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Employee/src/test/resources
+2026-07-10 08:42:24,794 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-checkin-service/src/main/java
+2026-07-10 08:42:24,796 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-checkin-service/src/main/resources
+2026-07-10 08:42:24,798 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-checkin-service/src/main/resources
+2026-07-10 08:42:24,799 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-checkin-service/src/test/java
+2026-07-10 08:42:24,800 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-checkin-service/src/test/resources
+2026-07-10 08:42:28,346 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProjectJDBCCURDOperation/src/main/java
+2026-07-10 08:42:28,348 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProjectJDBCCURDOperation/src/main/resources
+2026-07-10 08:42:28,349 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProjectJDBCCURDOperation/src/main/resources
+2026-07-10 08:42:28,350 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProjectJDBCCURDOperation/src/test/java
+2026-07-10 08:42:28,351 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProjectJDBCCURDOperation/src/test/resources
+2026-07-10 08:42:29,515 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /quiz/src/main/java
+2026-07-10 08:42:29,517 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /quiz/src/main/resources
+2026-07-10 08:42:29,518 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /quiz/src/main/resources
+2026-07-10 08:42:29,519 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /quiz/src/test/java
+2026-07-10 08:42:29,520 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /quiz/src/test/resources
+2026-07-10 08:42:31,174 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeDemo1/src/main/java
+2026-07-10 08:42:31,175 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo1/src/main/resources
+2026-07-10 08:42:31,176 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo1/src/main/resources
+2026-07-10 08:42:31,182 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeDemo1/src/test/java
+2026-07-10 08:42:31,183 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo1/src/test/resources
+2026-07-10 08:42:32,859 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PlaneAPITest/src/main/java
+2026-07-10 08:42:32,862 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PlaneAPITest/src/main/resources
+2026-07-10 08:42:32,863 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PlaneAPITest/src/main/resources
+2026-07-10 08:42:32,864 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PlaneAPITest/src/test/java
+2026-07-10 08:42:32,865 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PlaneAPITest/src/test/resources
+2026-07-10 08:42:37,485 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-boarding-service/src/main/java
+2026-07-10 08:42:37,487 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-boarding-service/src/main/resources
+2026-07-10 08:42:37,489 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-boarding-service/src/main/resources
+2026-07-10 08:42:37,490 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-boarding-service/src/test/java
+2026-07-10 08:42:37,492 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-boarding-service/src/test/resources
+2026-07-10 08:42:40,664 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /javaKafka/src/main/java
+2026-07-10 08:42:40,665 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /javaKafka/src/main/resources
+2026-07-10 08:42:40,667 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /javaKafka/src/main/resources
+2026-07-10 08:42:40,668 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /javaKafka/src/test/java
+2026-07-10 08:42:40,669 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /javaKafka/src/test/resources
+2026-07-10 08:42:43,637 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProductsMicroservice/src/main/java
+2026-07-10 08:42:43,638 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductsMicroservice/src/main/resources
+2026-07-10 08:42:43,639 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductsMicroservice/src/main/resources
+2026-07-10 08:42:43,640 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProductsMicroservice/src/test/java
+2026-07-10 08:42:43,645 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductsMicroservice/src/test/resources
+2026-07-10 08:42:45,893 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProject-2/src/main/java
+2026-07-10 08:42:45,894 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject-2/src/main/resources
+2026-07-10 08:42:45,896 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject-2/src/main/resources
+2026-07-10 08:42:45,896 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProject-2/src/test/java
+2026-07-10 08:42:45,898 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject-2/src/test/resources
+2026-07-10 08:42:47,362 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-server/src/main/java
+2026-07-10 08:42:47,363 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/main/resources
+2026-07-10 08:42:47,364 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/main/resources
+2026-07-10 08:42:47,365 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-server/src/test/java
+2026-07-10 08:42:47,367 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/test/resources
+2026-07-10 08:42:49,603 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kafka-example/src/main/java
+2026-07-10 08:42:49,604 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /kafka-example/src/main/resources
+2026-07-10 08:42:49,605 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /kafka-example/src/main/resources
+2026-07-10 08:42:49,606 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kafka-example/src/test/java
+2026-07-10 08:42:49,608 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /kafka-example/src/test/resources
+2026-07-10 08:42:49,609 [Worker-3: Importing Maven projects] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2026-07-10 08:42:54,158 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringHibernateByRemesh/src/main/java
+2026-07-10 08:42:54,160 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringHibernateByRemesh/src/main/resources
+2026-07-10 08:42:54,162 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringHibernateByRemesh/src/main/resources
+2026-07-10 08:42:54,162 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringHibernateByRemesh/src/test/java
+2026-07-10 08:42:54,163 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringHibernateByRemesh/src/test/resources
+2026-07-10 08:42:54,164 [Worker-3: Importing Maven projects] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2026-07-10 08:42:57,560 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userservice/src/main/java
+2026-07-10 08:42:57,562 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userservice/src/main/resources
+2026-07-10 08:42:57,567 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userservice/src/main/resources
+2026-07-10 08:42:57,568 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userservice/src/test/java
+2026-07-10 08:42:57,569 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userservice/src/test/resources
+2026-07-10 08:43:02,534 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Spring-security/src/main/java
+2026-07-10 08:43:02,536 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Spring-security/src/main/resources
+2026-07-10 08:43:02,539 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Spring-security/src/main/resources
+2026-07-10 08:43:02,541 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Spring-security/src/test/java
+2026-07-10 08:43:02,544 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Spring-security/src/test/resources
+2026-07-10 08:43:10,643 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jwt/src/main/java
+2026-07-10 08:43:10,645 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt/src/main/resources
+2026-07-10 08:43:10,646 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt/src/main/resources
+2026-07-10 08:43:10,650 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jwt/src/test/java
+2026-07-10 08:43:10,652 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt/src/test/resources
+2026-07-10 08:43:16,653 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProject/src/main/java
+2026-07-10 08:43:16,655 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject/src/main/resources
+2026-07-10 08:43:16,657 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject/src/main/resources
+2026-07-10 08:43:16,660 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProject/src/test/java
+2026-07-10 08:43:16,663 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject/src/test/resources
+2026-07-10 08:43:18,428 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringByDeepak/src/main/java
+2026-07-10 08:43:18,429 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringByDeepak/src/main/resources
+2026-07-10 08:43:18,431 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringByDeepak/src/main/resources
+2026-07-10 08:43:18,432 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringByDeepak/src/test/java
+2026-07-10 08:43:18,433 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringByDeepak/src/test/resources
+2026-07-10 08:43:18,433 [Worker-3: Importing Maven projects] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2026-07-10 08:43:24,440 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bootjpaexample/src/main/java
+2026-07-10 08:43:24,487 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bootjpaexample/src/main/resources
+2026-07-10 08:43:24,520 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bootjpaexample/src/main/resources
+2026-07-10 08:43:24,523 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bootjpaexample/src/test/java
+2026-07-10 08:43:24,526 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bootjpaexample/src/test/resources
+2026-07-10 08:43:28,520 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-booking-service/src/main/java
+2026-07-10 08:43:28,522 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-booking-service/src/main/resources
+2026-07-10 08:43:28,524 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-booking-service/src/main/resources
+2026-07-10 08:43:28,525 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-booking-service/src/test/java
+2026-07-10 08:43:28,527 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-booking-service/src/test/resources
+2026-07-10 08:43:48,308 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Eureka-service/src/main/java
+2026-07-10 08:43:48,309 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Eureka-service/src/main/resources
+2026-07-10 08:43:48,310 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Eureka-service/src/main/resources
+2026-07-10 08:43:48,311 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Eureka-service/src/test/java
+2026-07-10 08:43:48,313 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Eureka-service/src/test/resources
+2026-07-10 08:43:59,758 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2026-07-10 08:43:59,760 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2026-07-10 08:43:59,762 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2026-07-10 08:43:59,763 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2026-07-10 08:43:59,765 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/test/resources
+2026-07-10 08:44:11,186 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /question/src/main/java
+2026-07-10 08:44:11,192 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /question/src/main/resources
+2026-07-10 08:44:11,193 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /question/src/main/resources
+2026-07-10 08:44:11,194 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /question/src/test/java
+2026-07-10 08:44:11,195 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /question/src/test/resources
+2026-07-10 08:44:34,426 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /personal-finance-management-system/src/main/java
+2026-07-10 08:44:34,621 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /personal-finance-management-system/src/main/resources
+2026-07-10 08:44:34,700 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /personal-finance-management-system/src/main/resources
+2026-07-10 08:44:34,704 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /personal-finance-management-system/src/test/java
+2026-07-10 08:44:34,716 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /personal-finance-management-system/src/test/resources
+2026-07-10 08:44:45,490 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 39 project(s) in 514 sec
+2026-07-10 08:44:51,775 [Worker-5: Discover lifecycle mappings] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/Admin/AppData/Local/Temp/RemoteBundleDiscoveryStrategy1816030832984473208.tmp/org.eclipse.m2e.discovery.oss_catalog_2.x.jar_5512914955855361190.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-egit.xml
+2026-07-10 08:44:51,777 [Worker-5: Discover lifecycle mappings] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+2026-07-10 08:45:05,631 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-07-10 08:45:07,382 [Worker-2: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/3.0.3/spring-cloud-starter-netflix-eureka-server-3.0.3-javadoc.jar
+2026-07-10 08:45:07,387 [Worker-2: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:3.0.3
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:3.0.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-07-10 08:45:57,790 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.flight:Customer-Service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Flight Managment System\Customer-Service\pom.xml.
+2026-07-10 08:46:14,080 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.employeeinterviewquestion:EmployeeDemo1:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\EmployeeDemo1\pom.xml.
+2026-07-10 08:46:17,142 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eureka:Eureka-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Flight Managment System\Eureka-service\pom.xml.
+2026-07-10 08:46:19,836 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.george:PlaneAPITest:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Flight-Forecaster-main\KafkaPlaneAPIVisual\pom.xml.
+2026-07-10 08:46:31,926 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.appsdeveloper.ws:ProductsMicroservice:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\KAFKA\ProductsMicroservice\pom.xml.
+2026-07-10 08:46:33,887 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:Spring-security:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\Repeat\Spring-security\pom.xml.
+2026-07-10 08:46:34,680 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring2:SpringBootProjectJDBCCURDOperation:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Spring Boot\SpringBootProjectJDBCCURDOperation\pom.xml.
+2026-07-10 08:46:35,268 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-flight-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-flight-service\pom.xml.
+2026-07-10 08:46:42,766 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-pilot-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-pilot-service\pom.xml.
+2026-07-10 08:46:43,338 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:api-gateway:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\api-gateway\pom.xml.
+2026-07-10 08:46:44,508 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:config-server:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\config-server\pom.xml.
+2026-07-10 08:46:45,828 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:department-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\department-service\pom.xml.
+2026-07-10 08:46:46,420 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dxbair.services:flight-booking:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Project\flight-booking-master\flight-booking-master\pom.xml.
+2026-07-10 08:46:46,999 [Worker-15: Updating Maven Project] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.21.0-GA during dependency collection step for project (use -X to see details)
+2026-07-10 08:46:47,474 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.javakafka:javaKafka:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\KAFKA\javaKafka\javaKafka\pom.xml.
+2026-07-10 08:46:49,854 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jwt:jwt:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\jwt\pom.xml.
+2026-07-10 08:46:50,548 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.tpd:kafka-example:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\kafka-spring-boot-example-master\pom.xml.
+2026-07-10 08:46:51,554 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hardik:personal-finance-management-system:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\Repeat\NEW PROJECT\personal-finance-management-system-main\pom.xml.
+2026-07-10 08:46:52,406 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.question:question:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\question\pom.xml.
+2026-07-10 08:46:53,053 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.quiz:quiz:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\quiz\pom.xml.
+2026-07-10 08:46:53,332 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.userservices:userservice:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\userservice\pom.xml.
+2026-07-10 08:47:18,733 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Customer-Service/src/main/java
+2026-07-10 08:47:18,734 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer-Service/src/main/resources
+2026-07-10 08:47:18,735 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer-Service/src/main/resources
+2026-07-10 08:47:18,735 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Customer-Service/src/test/java
+2026-07-10 08:47:18,736 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Customer-Service/src/test/resources
+2026-07-10 08:47:19,922 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeDemo1/src/main/java
+2026-07-10 08:47:19,922 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo1/src/main/resources
+2026-07-10 08:47:19,923 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo1/src/main/resources
+2026-07-10 08:47:19,923 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeDemo1/src/test/java
+2026-07-10 08:47:19,924 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo1/src/test/resources
+2026-07-10 08:47:20,570 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Eureka-service/src/main/java
+2026-07-10 08:47:20,570 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Eureka-service/src/main/resources
+2026-07-10 08:47:20,571 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Eureka-service/src/main/resources
+2026-07-10 08:47:20,572 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Eureka-service/src/test/java
+2026-07-10 08:47:20,573 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Eureka-service/src/test/resources
+2026-07-10 08:47:22,242 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PlaneAPITest/src/main/java
+2026-07-10 08:47:22,243 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PlaneAPITest/src/main/resources
+2026-07-10 08:47:22,244 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PlaneAPITest/src/main/resources
+2026-07-10 08:47:22,245 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PlaneAPITest/src/test/java
+2026-07-10 08:47:22,246 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PlaneAPITest/src/test/resources
+2026-07-10 08:47:25,424 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProductsMicroservice/src/main/java
+2026-07-10 08:47:25,424 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductsMicroservice/src/main/resources
+2026-07-10 08:47:25,425 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductsMicroservice/src/main/resources
+2026-07-10 08:47:25,425 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProductsMicroservice/src/test/java
+2026-07-10 08:47:25,426 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductsMicroservice/src/test/resources
+2026-07-10 08:47:26,948 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Spring-security/src/main/java
+2026-07-10 08:47:26,949 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Spring-security/src/main/resources
+2026-07-10 08:47:26,950 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Spring-security/src/main/resources
+2026-07-10 08:47:26,950 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Spring-security/src/test/java
+2026-07-10 08:47:26,951 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Spring-security/src/test/resources
+2026-07-10 08:47:27,935 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProjectJDBCCURDOperation/src/main/java
+2026-07-10 08:47:27,938 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProjectJDBCCURDOperation/src/main/resources
+2026-07-10 08:47:27,939 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProjectJDBCCURDOperation/src/main/resources
+2026-07-10 08:47:27,939 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProjectJDBCCURDOperation/src/test/java
+2026-07-10 08:47:27,941 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProjectJDBCCURDOperation/src/test/resources
+2026-07-10 08:47:29,140 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-flight-service/src/main/java
+2026-07-10 08:47:29,141 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-flight-service/src/main/resources
+2026-07-10 08:47:29,142 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-flight-service/src/main/resources
+2026-07-10 08:47:29,143 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-flight-service/src/test/java
+2026-07-10 08:47:29,144 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-flight-service/src/test/resources
+2026-07-10 08:47:32,511 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-pilot-service/src/main/java
+2026-07-10 08:47:32,512 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-pilot-service/src/main/resources
+2026-07-10 08:47:32,512 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-pilot-service/src/main/resources
+2026-07-10 08:47:32,513 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-pilot-service/src/test/java
+2026-07-10 08:47:32,514 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-pilot-service/src/test/resources
+2026-07-10 08:47:35,879 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2026-07-10 08:47:35,881 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2026-07-10 08:47:35,882 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2026-07-10 08:47:35,882 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2026-07-10 08:47:35,884 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/test/resources
+2026-07-10 08:47:42,076 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-server/src/main/java
+2026-07-10 08:47:42,172 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/main/resources
+2026-07-10 08:47:42,173 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/main/resources
+2026-07-10 08:47:42,174 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-server/src/test/java
+2026-07-10 08:47:42,177 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/test/resources
+2026-07-10 08:47:48,249 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /department-service/src/main/java
+2026-07-10 08:47:48,251 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /department-service/src/main/resources
+2026-07-10 08:47:48,252 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /department-service/src/main/resources
+2026-07-10 08:47:48,252 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /department-service/src/test/java
+2026-07-10 08:47:48,254 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /department-service/src/test/resources
+2026-07-10 08:47:54,221 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flight-booking/src/main/java
+2026-07-10 08:47:54,223 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /flight-booking/src/main/resources
+2026-07-10 08:47:54,224 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /flight-booking/src/main/resources
+2026-07-10 08:47:54,227 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flight-booking/src/test/java
+2026-07-10 08:47:54,228 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /flight-booking/src/test/resources
+2026-07-10 08:47:56,207 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /javaKafka/src/main/java
+2026-07-10 08:47:56,208 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /javaKafka/src/main/resources
+2026-07-10 08:47:56,210 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /javaKafka/src/main/resources
+2026-07-10 08:47:56,211 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /javaKafka/src/test/java
+2026-07-10 08:47:56,212 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /javaKafka/src/test/resources
+2026-07-10 08:47:58,825 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jwt/src/main/java
+2026-07-10 08:47:58,826 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt/src/main/resources
+2026-07-10 08:47:58,827 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt/src/main/resources
+2026-07-10 08:47:58,828 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jwt/src/test/java
+2026-07-10 08:47:58,829 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jwt/src/test/resources
+2026-07-10 08:48:00,340 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kafka-example/src/main/java
+2026-07-10 08:48:00,341 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /kafka-example/src/main/resources
+2026-07-10 08:48:00,343 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /kafka-example/src/main/resources
+2026-07-10 08:48:00,343 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kafka-example/src/test/java
+2026-07-10 08:48:00,344 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /kafka-example/src/test/resources
+2026-07-10 08:48:00,345 [Worker-15: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2026-07-10 08:48:01,507 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /personal-finance-management-system/src/main/java
+2026-07-10 08:48:01,508 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /personal-finance-management-system/src/main/resources
+2026-07-10 08:48:01,510 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /personal-finance-management-system/src/main/resources
+2026-07-10 08:48:01,510 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /personal-finance-management-system/src/test/java
+2026-07-10 08:48:01,512 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /personal-finance-management-system/src/test/resources
+2026-07-10 08:48:08,268 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /question/src/main/java
+2026-07-10 08:48:08,269 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /question/src/main/resources
+2026-07-10 08:48:08,269 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /question/src/main/resources
+2026-07-10 08:48:08,269 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /question/src/test/java
+2026-07-10 08:48:08,270 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /question/src/test/resources
+2026-07-10 08:48:13,120 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /quiz/src/main/java
+2026-07-10 08:48:13,121 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /quiz/src/main/resources
+2026-07-10 08:48:13,122 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /quiz/src/main/resources
+2026-07-10 08:48:13,122 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /quiz/src/test/java
+2026-07-10 08:48:13,123 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /quiz/src/test/resources
+2026-07-10 08:48:17,792 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userservice/src/main/java
+2026-07-10 08:48:17,793 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userservice/src/main/resources
+2026-07-10 08:48:17,794 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userservice/src/main/resources
+2026-07-10 08:48:17,795 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /userservice/src/test/java
+2026-07-10 08:48:17,796 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /userservice/src/test/resources
+2026-07-10 08:48:26,773 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-07-10 08:49:14,392 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.employee:Employee:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\Employee\pom.xml.
+2026-07-10 08:49:15,741 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.employee:EmployeeDemo:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\EmployeeDemo\pom.xml.
+2026-07-10 08:49:17,158 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.org:FMS-SpringBoot-Backend:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Project\Flight-Management-System-master\Flight-Management-System-master\FMS-SpringBoot-Backend\pom.xml.
+2026-07-10 08:49:21,433 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.product:ProductService:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\ProductService\pom.xml.
+2026-07-10 08:49:22,111 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\SpringBootExample\pom.xml.
+2026-07-10 08:49:22,463 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:SpringBootProject:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Spring Boot\SpringBootProject\pom.xml.
+2026-07-10 08:49:22,892 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring2:SpringBootProject-2:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Spring Boot\SpringBootProject-2\pom.xml.
+2026-07-10 08:49:23,292 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springboot:SpringByDeepak:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Spring Boot\SpringByDeepak\pom.xml.
+2026-07-10 08:49:23,742 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.p:SpringHibernateByRemesh:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\sts\SpringHibernateByRemesh\pom.xml.
+2026-07-10 08:49:24,576 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-boarding-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-boarding-service\pom.xml.
+2026-07-10 08:49:27,460 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-booking-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-bookings-service\pom.xml.
+2026-07-10 08:49:28,937 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-checkin-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-checkin-service\pom.xml.
+2026-07-10 08:49:29,633 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:airport-security-service:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\airport-checking-service\pom.xml.
+2026-07-10 08:49:33,548 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jpa:bootjpaexample:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Spring Boot\JPAEXAMPLE\pom.xml.
+2026-07-10 08:49:35,025 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.demo:demo:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Project case study\demo\pom.xml.
+2026-07-10 08:49:36,179 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.airport:eureka-server:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\FMS\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\comprehensive-example-on-microservices-using-spring-boot-with-spring-cloud-master\eureka-server\pom.xml.
+2026-07-10 08:49:37,132 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dailycodebuffer:service-registry:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\MicroServices\service-registry\pom.xml.
+2026-07-10 08:50:05,222 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Employee/src/main/java
+2026-07-10 08:50:05,223 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Employee/src/main/resources
+2026-07-10 08:50:05,225 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Employee/src/main/resources
+2026-07-10 08:50:05,225 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Employee/src/test/java
+2026-07-10 08:50:05,226 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Employee/src/test/resources
+2026-07-10 08:50:06,219 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeDemo/src/main/java
+2026-07-10 08:50:06,220 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo/src/main/resources
+2026-07-10 08:50:06,220 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo/src/main/resources
+2026-07-10 08:50:06,221 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeDemo/src/test/java
+2026-07-10 08:50:06,221 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeDemo/src/test/resources
+2026-07-10 08:50:07,592 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FMS-SpringBoot-Backend/src/main/java
+2026-07-10 08:50:07,594 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FMS-SpringBoot-Backend/src/main/resources
+2026-07-10 08:50:07,595 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FMS-SpringBoot-Backend/src/main/resources
+2026-07-10 08:50:07,596 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FMS-SpringBoot-Backend/src/test/java
+2026-07-10 08:50:07,598 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FMS-SpringBoot-Backend/src/test/resources
+2026-07-10 08:50:09,120 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProductService/src/main/java
+2026-07-10 08:50:09,123 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductService/src/main/resources
+2026-07-10 08:50:09,124 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductService/src/main/resources
+2026-07-10 08:50:09,126 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProductService/src/test/java
+2026-07-10 08:50:09,127 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProductService/src/test/resources
+2026-07-10 08:50:10,066 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot/src/main/java
+2026-07-10 08:50:10,066 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot/src/main/resources
+2026-07-10 08:50:10,067 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot/src/main/resources
+2026-07-10 08:50:10,067 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot/src/test/java
+2026-07-10 08:50:10,068 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot/src/test/resources
+2026-07-10 08:50:11,155 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProject/src/main/java
+2026-07-10 08:50:11,156 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject/src/main/resources
+2026-07-10 08:50:11,165 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject/src/main/resources
+2026-07-10 08:50:11,166 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProject/src/test/java
+2026-07-10 08:50:11,167 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject/src/test/resources
+2026-07-10 08:50:11,699 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProject-2/src/main/java
+2026-07-10 08:50:11,699 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject-2/src/main/resources
+2026-07-10 08:50:11,700 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject-2/src/main/resources
+2026-07-10 08:50:11,700 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootProject-2/src/test/java
+2026-07-10 08:50:11,701 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootProject-2/src/test/resources
+2026-07-10 08:50:12,311 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringByDeepak/src/main/java
+2026-07-10 08:50:12,311 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringByDeepak/src/main/resources
+2026-07-10 08:50:12,312 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringByDeepak/src/main/resources
+2026-07-10 08:50:12,312 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringByDeepak/src/test/java
+2026-07-10 08:50:12,313 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringByDeepak/src/test/resources
+2026-07-10 08:50:12,313 [Worker-15: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2026-07-10 08:50:13,084 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringHibernateByRemesh/src/main/java
+2026-07-10 08:50:13,086 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringHibernateByRemesh/src/main/resources
+2026-07-10 08:50:13,086 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringHibernateByRemesh/src/main/resources
+2026-07-10 08:50:13,087 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringHibernateByRemesh/src/test/java
+2026-07-10 08:50:13,090 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringHibernateByRemesh/src/test/resources
+2026-07-10 08:50:13,090 [Worker-15: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+2026-07-10 08:50:13,851 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-boarding-service/src/main/java
+2026-07-10 08:50:13,852 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-boarding-service/src/main/resources
+2026-07-10 08:50:13,853 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-boarding-service/src/main/resources
+2026-07-10 08:50:13,853 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-boarding-service/src/test/java
+2026-07-10 08:50:13,855 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-boarding-service/src/test/resources
+2026-07-10 08:50:15,761 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-booking-service/src/main/java
+2026-07-10 08:50:15,762 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-booking-service/src/main/resources
+2026-07-10 08:50:15,763 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-booking-service/src/main/resources
+2026-07-10 08:50:15,764 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-booking-service/src/test/java
+2026-07-10 08:50:15,765 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-booking-service/src/test/resources
+2026-07-10 08:50:17,921 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-checkin-service/src/main/java
+2026-07-10 08:50:17,923 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-checkin-service/src/main/resources
+2026-07-10 08:50:17,924 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-checkin-service/src/main/resources
+2026-07-10 08:50:17,925 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-checkin-service/src/test/java
+2026-07-10 08:50:17,926 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-checkin-service/src/test/resources
+2026-07-10 08:50:22,740 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-security-service/src/main/java
+2026-07-10 08:50:22,742 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-security-service/src/main/resources
+2026-07-10 08:50:22,743 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-security-service/src/main/resources
+2026-07-10 08:50:22,743 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /airport-security-service/src/test/java
+2026-07-10 08:50:22,744 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /airport-security-service/src/test/resources
+2026-07-10 08:50:24,957 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bootjpaexample/src/main/java
+2026-07-10 08:50:24,957 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bootjpaexample/src/main/resources
+2026-07-10 08:50:24,958 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bootjpaexample/src/main/resources
+2026-07-10 08:50:24,958 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bootjpaexample/src/test/java
+2026-07-10 08:50:24,959 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bootjpaexample/src/test/resources
+2026-07-10 08:50:25,945 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2026-07-10 08:50:25,946 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2026-07-10 08:50:25,947 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2026-07-10 08:50:25,948 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2026-07-10 08:50:25,948 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2026-07-10 08:50:27,144 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-registry/src/main/java
+2026-07-10 08:50:27,145 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-registry/src/main/resources
+2026-07-10 08:50:27,146 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-registry/src/main/resources
+2026-07-10 08:50:27,146 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-registry/src/test/java
+2026-07-10 08:50:27,147 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-registry/src/test/resources
+2026-07-10 08:50:30,157 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-07-10 08:50:33,855 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mycompany:FlightTicket:1.0-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\Project\JAVA-Flight-Management-System-main\JAVA-Flight-Management-System-main\FlightTicket\pom.xml.
+2026-07-10 08:50:41,326 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlightTicket/src/main/java
+2026-07-10 08:50:41,327 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FlightTicket/src/main/resources
+2026-07-10 08:50:41,327 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlightTicket/src/test/java
+2026-07-10 08:50:41,328 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FlightTicket/src/test/resources
+2026-07-10 08:50:43,670 [Worker-21: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jwt:jwt:0.0.1-SNAPSHOT @ C:\MUKESH KUMAR WORK SPACE\jwt\pom.xml.
+2026-07-10 08:50:44,766 [Worker-21: Updating Maven Dependencies] INFO  o.e.m.c.i.p.r.ProjectRegistryRefreshJob - org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob was canceled
+2026-07-10 08:52:09,044 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.

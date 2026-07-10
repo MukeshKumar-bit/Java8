@@ -1,0 +1,2413 @@
+!SESSION 2026-07-10 08:34:43.976 -----------------------------------------------
+eclipse.buildId=4.25.0.202409101855
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\MUKESH KUMAR WORK SPACE\Java8\Java8repeat
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-10 08:34:55.453
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-10 08:34:58.831
+!MESSAGE Logback config file: C:\MUKESH KUMAR WORK SPACE\Java8\Java8repeat\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-07-10 08:34:59.674
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-07-10 08:34:59.674
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-07-10 08:35:00.456
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-07-10 08:35:00.456
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-10 08:35:10.268
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-10 08:35:10.273
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-10 08:35:10.841
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-10 08:35:11.160
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.buildship.core 2 0 2026-07-10 08:35:14.063
+!MESSAGE Could not load Gradle version information
+!STACK 0
+org.gradle.api.UncheckedIOException: Cannot download published Gradle versions.
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:167)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:151)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:111)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.UnknownHostException: services.gradle.org
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1237)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.downloadVersionInformation(PublishedGradleVersions.java:164)
+	... 4 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:19.798
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.502.5 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:20.061
+!MESSAGE [Info]	[UndiciFetcher] HTTP settings changed; resetting Undici dispatchers. {
+  proxy: 'none',
+  noProxyCount: 0,
+  proxyStrictSSL: true,
+  hasProxyAuthorization: false,
+  hasProxyKerberosServicePrincipal: false
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-07-10 08:35:20.063
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:20.071
+!MESSAGE [Info]	[certificates] Removed 12 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:20.072
+!MESSAGE [Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 195 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:20.078
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Could not find any available embedding types. Error: noSession
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:20.079
+!MESSAGE [Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\copilot-language-server-internal\dist\main.js:348:32904)
+    at C:\snapshot\copilot-language-server-internal\dist\main.js:348:39248
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  errno: -3008,
+  [cause]: Error: getaddrinfo ENOTFOUND copilot-telemetry.githubusercontent.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'copilot-telemetry.githubusercontent.com'
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:20.107
+!MESSAGE [Info]	[AuthManager] checkAndUpdateStatus: no session found, priming token
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:20.182
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:20.232
+!MESSAGE [Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\Admin\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:20.245
+!MESSAGE [Info]	[ripgrep] Resolved ripgrep path: C:\Users\Admin\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:20.245
+!MESSAGE [Info]	[ripgrep] Set GITHUB_COPILOT_RIPGREP_PATH_OVERRIDE=C:\Users\Admin\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-07-10 08:35:20.498
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-07-10 08:35:20.565
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:35.282
+!MESSAGE [Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\copilot-language-server-internal\dist\main.js:348:32904)
+    at C:\snapshot\copilot-language-server-internal\dist\main.js:348:39248
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  errno: -3008,
+  [cause]: Error: getaddrinfo ENOTFOUND copilot-telemetry.githubusercontent.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'copilot-telemetry.githubusercontent.com'
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:35:35.330
+!MESSAGE [Info]	[fetcher] Request to <https://dc.services.visualstudio.com/v2/track> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\copilot-language-server-internal\dist\main.js:348:32904)
+    at C:\snapshot\copilot-language-server-internal\dist\main.js:348:39248
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  errno: -3008,
+  [cause]: Error: getaddrinfo ENOTFOUND dc.services.visualstudio.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dc.services.visualstudio.com'
+  }
+}
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:12.428
+!MESSAGE Classpath changed for project: Customer-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:12.432
+!MESSAGE Classpath changed for project: EmployeeDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:12.433
+!MESSAGE Classpath changed for project: EmployeeDemo1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:14.299
+!MESSAGE Classpath changed for project: Eureka-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:14.301
+!MESSAGE Classpath changed for project: PlaneAPITest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:14.304
+!MESSAGE Classpath changed for project: airport-boarding-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:14.318
+!MESSAGE Classpath changed for project: airport-booking-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:14.321
+!MESSAGE Classpath changed for project: airport-checkin-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:14.322
+!MESSAGE Classpath changed for project: airport-flight-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:14.323
+!MESSAGE Classpath changed for project: airport-pilot-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:14.324
+!MESSAGE Classpath changed for project: airport-security-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:14.325
+!MESSAGE Classpath changed for project: api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:14.326
+!MESSAGE Classpath changed for project: eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.595
+!MESSAGE Classpath changed for project: FMS-SpringBoot-Backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.596
+!MESSAGE Classpath changed for project: FlightTicket
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.607
+!MESSAGE Classpath changed for project: ProductsMicroservice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.608
+!MESSAGE Classpath changed for project: config-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.609
+!MESSAGE Classpath changed for project: department-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.611
+!MESSAGE Classpath changed for project: flight-booking
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.613
+!MESSAGE Classpath changed for project: javaKafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.614
+!MESSAGE Classpath changed for project: jwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.615
+!MESSAGE Classpath changed for project: kafka-example
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.658
+!MESSAGE Classpath changed for project: question
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.661
+!MESSAGE Classpath changed for project: quiz
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.663
+!MESSAGE Classpath changed for project: service-registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:16.664
+!MESSAGE Classpath changed for project: userservice
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-07-10 08:36:18.158
+!MESSAGE Project Employee already exists
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:18.256
+!MESSAGE Classpath changed for project: Employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:18.258
+!MESSAGE Classpath changed for project: ProductService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:18.259
+!MESSAGE Classpath changed for project: SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:18.261
+!MESSAGE Classpath changed for project: SpringBootProject-2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:18.262
+!MESSAGE Classpath changed for project: SpringBootProjectJDBCCURDOperation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:18.263
+!MESSAGE Classpath changed for project: SpringByDeepak
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:18.265
+!MESSAGE Classpath changed for project: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:20.249
+!MESSAGE Classpath changed for project: Spring-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:20.251
+!MESSAGE Classpath changed for project: SpringHibernateByRemesh
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:36:20.252
+!MESSAGE Classpath changed for project: personal-finance-management-system
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2026-07-10 08:36:21.540
+!MESSAGE Connection to https://marketplace.eclipse.org/category/free-tagging/nature_org.hibernate.eclipse.console.hibernateNature/api/p?client=org.eclipse.epp.mpc.core&os=win32&platform.version=4.33 failed on null. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 21 more
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2026-07-10 08:36:22.010
+!MESSAGE Project nature discovery for org.hibernate.eclipse.console.hibernateNature failed
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to https://marketplace.eclipse.org/category/free-tagging/nature_org.hibernate.eclipse.console.hibernateNature/api/p?client=org.eclipse.epp.mpc.core&os=win32&platform.version=4.33: Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:195)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:501)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:528)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$1(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:331)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:112)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:74)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:164)
+	... 10 more
+	Suppressed: org.eclipse.core.runtime.CoreException: Unable to connect to repository https://marketplace.eclipse.org/category/free-tagging/nature_org.hibernate.eclipse.console.hibernateNature/api/p?client=org.eclipse.epp.mpc.core&os=win32&platform.version=4.33
+		at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:221)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.eclipse.epp.internal.mpc.core.util.AbstractP2TransportFactory.invokeStream(AbstractP2TransportFactory.java:37)
+		at org.eclipse.epp.internal.mpc.core.util.TransportFactory.lambda$0(TransportFactory.java:421)
+		at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.primaryFailed(FallbackTransportFactory.java:130)
+		at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:91)
+		... 11 more
+	Caused by: java.net.ConnectException
+		at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+		at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+		at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+		at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468)
+		at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134)
+		at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94)
+		at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386)
+		at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570)
+		at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+		at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+		at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+		at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+		at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+		at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+		at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+		at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.nio.channels.UnresolvedAddressException
+		at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+		at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+		at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+		at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+		at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+		... 21 more
+Caused by: java.net.UnknownHostException: No such host is known (marketplace.eclipse.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:144)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientService.execute(HttpClientService.java:87)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientService.execute(HttpClientService.java:79)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:45)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:97)
+	... 12 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2026-07-10 08:36:22.016
+!MESSAGE Cannot complete request to https://marketplace.eclipse.org/category/free-tagging/nature_org.hibernate.eclipse.console.hibernateNature/api/p?client=org.eclipse.epp.mpc.core&os=win32&platform.version=4.33: Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:112)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:74)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:164)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:501)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:528)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$1(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:331)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: org.eclipse.core.runtime.CoreException: Unable to connect to repository https://marketplace.eclipse.org/category/free-tagging/nature_org.hibernate.eclipse.console.hibernateNature/api/p?client=org.eclipse.epp.mpc.core&os=win32&platform.version=4.33
+		at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:221)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.eclipse.epp.internal.mpc.core.util.AbstractP2TransportFactory.invokeStream(AbstractP2TransportFactory.java:37)
+		at org.eclipse.epp.internal.mpc.core.util.TransportFactory.lambda$0(TransportFactory.java:421)
+		at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.primaryFailed(FallbackTransportFactory.java:130)
+		at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:91)
+		... 11 more
+	Caused by: java.net.ConnectException
+		at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+		at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+		at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+		at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468)
+		at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134)
+		at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94)
+		at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386)
+		at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570)
+		at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+		at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+		at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+		at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+		at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+		at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+		at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+		at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+		at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+		at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.nio.channels.UnresolvedAddressException
+		at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+		at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+		at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+		at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+		at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+		at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+		... 21 more
+Caused by: java.net.UnknownHostException: No such host is known (marketplace.eclipse.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:144)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientService.execute(HttpClientService.java:87)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientService.execute(HttpClientService.java:79)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:45)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:97)
+	... 12 more
+Contains: Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+java.net.UnknownHostException: No such host is known (marketplace.eclipse.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:144)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientService.execute(HttpClientService.java:87)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientService.execute(HttpClientService.java:79)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:45)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:97)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:74)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:164)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:501)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:528)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$1(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:331)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.epp.mpc.core 4 0 2026-07-10 08:36:22.020
+!MESSAGE Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 0
+java.net.UnknownHostException: No such host is known (marketplace.eclipse.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:144)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientService.execute(HttpClientService.java:87)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientService.execute(HttpClientService.java:79)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:45)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:97)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:74)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:164)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:501)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:528)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$1(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:331)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 3 org.eclipse.epp.mpc.core 4 0 2026-07-10 08:36:22.022
+!MESSAGE Cannot resolve host
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 0
+java.net.UnknownHostException: No such host is known (marketplace.eclipse.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:144)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientService.execute(HttpClientService.java:87)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientService.execute(HttpClientService.java:79)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:45)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:97)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:74)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:164)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:501)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:528)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$1(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:331)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-07-10 08:38:33.484
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.21.0-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:17.499
+!MESSAGE Classpath changed for project: airport-pilot-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:17.501
+!MESSAGE Boot project ADDED: airport-pilot-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:17.503
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:17.505
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-07-10 08:39:17.610
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Software\spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.25.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/MUKESH KUMAR WORK SPACE/Java8/Java8repeat/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1783652957608
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Software\spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.25.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.57.0.202409101848\servers\spring-boot-language-server\spring-boot-language-server-1.57.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:17.612
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-07-10 08:39:17.644
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13224
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:31.700
+!MESSAGE Classpath changed for project: quiz
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:31.701
+!MESSAGE Boot project ADDED: quiz
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:31.703
+!MESSAGE Classpath changed for project: department-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:31.707
+!MESSAGE Boot project ADDED: department-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:40.024
+!MESSAGE Classpath changed for project: EmployeeDemo1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:40.026
+!MESSAGE Boot project ADDED: EmployeeDemo1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:44.956
+!MESSAGE Classpath changed for project: airport-flight-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:44.957
+!MESSAGE Boot project ADDED: airport-flight-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:44.959
+!MESSAGE Classpath changed for project: config-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:44.960
+!MESSAGE Boot project ADDED: config-server
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-07-10 08:39:53.288
+!MESSAGE Could not download javadoc for org.webjars:swagger-ui:3.47.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:swagger-ui:jar:javadoc:3.47.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not transfer artifact org.webjars:swagger-ui:jar:javadoc:3.47.1 from/to central (https://repo.maven.apache.org/maven2): No such host is known (repo.maven.apache.org)
+org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.webjars:swagger-ui:jar:javadoc:3.47.1 from/to central (https://repo.maven.apache.org/maven2): No such host is known (repo.maven.apache.org)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:44)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:417)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:260)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:537)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:449)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:261)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:243)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:518)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.UnknownHostException: No such host is known (repo.maven.apache.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.ServiceUnavailableRetryExec.execute(ServiceUnavailableRetryExec.java:85)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.eclipse.aether.transport.http.HttpTransporter.execute(HttpTransporter.java:486)
+	at org.eclipse.aether.transport.http.HttpTransporter.implGet(HttpTransporter.java:436)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.get(AbstractTransporter.java:64)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask(BasicRepositoryConnector.java:482)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:414)
+	... 23 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2026-07-10 08:39:53.288
+!MESSAGE Could not resolve artifact org.webjars:swagger-ui:jar:javadoc:3.47.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2026-07-10 08:39:53.288
+!MESSAGE Could not transfer artifact org.webjars:swagger-ui:jar:javadoc:3.47.1 from/to central (https://repo.maven.apache.org/maven2): No such host is known (repo.maven.apache.org)
+!STACK 0
+org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.webjars:swagger-ui:jar:javadoc:3.47.1 from/to central (https://repo.maven.apache.org/maven2): No such host is known (repo.maven.apache.org)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:44)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:417)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:260)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:537)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:449)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:261)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:243)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:518)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.UnknownHostException: No such host is known (repo.maven.apache.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.ServiceUnavailableRetryExec.execute(ServiceUnavailableRetryExec.java:85)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.eclipse.aether.transport.http.HttpTransporter.execute(HttpTransporter.java:486)
+	at org.eclipse.aether.transport.http.HttpTransporter.implGet(HttpTransporter.java:436)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.get(AbstractTransporter.java:64)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask(BasicRepositoryConnector.java:482)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:414)
+	... 23 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:57.681
+!MESSAGE Classpath changed for project: personal-finance-management-system
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:39:57.682
+!MESSAGE Boot project ADDED: personal-finance-management-system
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-07-10 08:40:14.101
+!MESSAGE Could not download javadoc for org.webjars:swagger-ui:5.17.14
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:swagger-ui:jar:javadoc:5.17.14
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not transfer artifact org.webjars:swagger-ui:jar:javadoc:5.17.14 from/to central (https://repo.maven.apache.org/maven2): No such host is known (repo.maven.apache.org)
+org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.webjars:swagger-ui:jar:javadoc:5.17.14 from/to central (https://repo.maven.apache.org/maven2): No such host is known (repo.maven.apache.org)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:44)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:417)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:260)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:537)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:449)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:261)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:243)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:518)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.UnknownHostException: No such host is known (repo.maven.apache.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.ServiceUnavailableRetryExec.execute(ServiceUnavailableRetryExec.java:85)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.eclipse.aether.transport.http.HttpTransporter.execute(HttpTransporter.java:486)
+	at org.eclipse.aether.transport.http.HttpTransporter.implGet(HttpTransporter.java:436)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.get(AbstractTransporter.java:64)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask(BasicRepositoryConnector.java:482)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:414)
+	... 23 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2026-07-10 08:40:14.103
+!MESSAGE Could not resolve artifact org.webjars:swagger-ui:jar:javadoc:5.17.14
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2026-07-10 08:40:14.103
+!MESSAGE Could not transfer artifact org.webjars:swagger-ui:jar:javadoc:5.17.14 from/to central (https://repo.maven.apache.org/maven2): No such host is known (repo.maven.apache.org)
+!STACK 0
+org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.webjars:swagger-ui:jar:javadoc:5.17.14 from/to central (https://repo.maven.apache.org/maven2): No such host is known (repo.maven.apache.org)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:44)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:417)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:260)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:537)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:449)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:261)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:243)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:518)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.UnknownHostException: No such host is known (repo.maven.apache.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.ServiceUnavailableRetryExec.execute(ServiceUnavailableRetryExec.java:85)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.eclipse.aether.transport.http.HttpTransporter.execute(HttpTransporter.java:486)
+	at org.eclipse.aether.transport.http.HttpTransporter.implGet(HttpTransporter.java:436)
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.get(AbstractTransporter.java:64)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask(BasicRepositoryConnector.java:482)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:414)
+	... 23 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:17.083
+!MESSAGE Classpath changed for project: PlaneAPITest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:17.087
+!MESSAGE Boot project ADDED: PlaneAPITest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:17.093
+!MESSAGE Classpath changed for project: userservice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:17.094
+!MESSAGE Boot project ADDED: userservice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:26.416
+!MESSAGE Classpath changed for project: flight-booking
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:26.419
+!MESSAGE Boot project ADDED: flight-booking
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:31.876
+!MESSAGE Classpath changed for project: Spring-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:31.880
+!MESSAGE Boot project ADDED: Spring-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:31.881
+!MESSAGE Classpath changed for project: question
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:31.882
+!MESSAGE Boot project ADDED: question
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:36.625
+!MESSAGE Classpath changed for project: jwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:36.626
+!MESSAGE Boot project ADDED: jwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:36.627
+!MESSAGE Classpath changed for project: SpringBootProjectJDBCCURDOperation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:36.628
+!MESSAGE Boot project ADDED: SpringBootProjectJDBCCURDOperation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:52.328
+!MESSAGE Classpath changed for project: javaKafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:40:52.331
+!MESSAGE Boot project ADDED: javaKafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:41:52.039
+!MESSAGE Classpath changed for project: Customer-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:41:52.060
+!MESSAGE Boot project ADDED: Customer-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:41:52.061
+!MESSAGE Classpath changed for project: Eureka-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:41:52.107
+!MESSAGE Boot project ADDED: Eureka-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:41:52.109
+!MESSAGE Classpath changed for project: api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:41:52.182
+!MESSAGE Boot project ADDED: api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:41:52.183
+!MESSAGE Classpath changed for project: eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:41:52.190
+!MESSAGE Boot project ADDED: eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:41:52.191
+!MESSAGE Classpath changed for project: Employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:41:52.263
+!MESSAGE Boot project ADDED: Employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.093
+!MESSAGE Classpath changed for project: ProductsMicroservice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.097
+!MESSAGE Boot project ADDED: ProductsMicroservice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.098
+!MESSAGE Classpath changed for project: kafka-example
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.100
+!MESSAGE Boot project ADDED: kafka-example
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.102
+!MESSAGE Classpath changed for project: Customer-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.103
+!MESSAGE Classpath changed for project: api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.104
+!MESSAGE Classpath changed for project: Eureka-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.106
+!MESSAGE Classpath changed for project: service-registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.108
+!MESSAGE Boot project ADDED: service-registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.109
+!MESSAGE Classpath changed for project: SpringHibernateByRemesh
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.110
+!MESSAGE Boot project ADDED: SpringHibernateByRemesh
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.111
+!MESSAGE Classpath changed for project: airport-security-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.112
+!MESSAGE Boot project ADDED: airport-security-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.113
+!MESSAGE Classpath changed for project: SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.114
+!MESSAGE Boot project ADDED: SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.115
+!MESSAGE Classpath changed for project: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.117
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.118
+!MESSAGE Classpath changed for project: airport-boarding-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.119
+!MESSAGE Boot project ADDED: airport-boarding-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.120
+!MESSAGE Classpath changed for project: airport-booking-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.121
+!MESSAGE Boot project ADDED: airport-booking-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.122
+!MESSAGE Classpath changed for project: FMS-SpringBoot-Backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.124
+!MESSAGE Boot project ADDED: FMS-SpringBoot-Backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.127
+!MESSAGE Classpath changed for project: SpringBootProject-2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.128
+!MESSAGE Boot project ADDED: SpringBootProject-2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.129
+!MESSAGE Classpath changed for project: Employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.130
+!MESSAGE Classpath changed for project: EmployeeDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.132
+!MESSAGE Boot project ADDED: EmployeeDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.133
+!MESSAGE Classpath changed for project: eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.134
+!MESSAGE Classpath changed for project: ProductService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.135
+!MESSAGE Boot project ADDED: ProductService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.136
+!MESSAGE Classpath changed for project: SpringByDeepak
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.136
+!MESSAGE Boot project ADDED: SpringByDeepak
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.137
+!MESSAGE Classpath changed for project: airport-checkin-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.138
+!MESSAGE Boot project ADDED: airport-checkin-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.139
+!MESSAGE Classpath changed for project: FlightTicket
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:00.140
+!MESSAGE Boot project ADDED: FlightTicket
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:25.988
+!MESSAGE Classpath changed for project: Employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:25.989
+!MESSAGE Classpath changed for project: airport-pilot-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:25.990
+!MESSAGE Classpath changed for project: airport-security-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:25.991
+!MESSAGE Classpath changed for project: airport-flight-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:25.992
+!MESSAGE Classpath changed for project: airport-checkin-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:25.993
+!MESSAGE Classpath changed for project: EmployeeDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:25.995
+!MESSAGE Classpath changed for project: FMS-SpringBoot-Backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:25.996
+!MESSAGE Classpath changed for project: FlightTicket
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:25.997
+!MESSAGE Classpath changed for project: ProductService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:25.998
+!MESSAGE Classpath changed for project: SpringBoot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:25.999
+!MESSAGE Boot project ADDED: SpringBoot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:26.000
+!MESSAGE Classpath changed for project: department-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:26.001
+!MESSAGE Classpath changed for project: eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:26.002
+!MESSAGE Classpath changed for project: flight-booking
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:26.003
+!MESSAGE Classpath changed for project: service-registry
+
+!ENTRY org.eclipse.ui.workbench 4 0 2026-07-10 08:42:28.010
+!MESSAGE An internal error has occurred.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchWindow.getShell()" because the return value of "org.eclipse.ui.IWorkbench.getActiveWorkbenchWindow()" is null
+	at org.eclipse.epp.internal.mpc.ui.discovery.ShowNatureProposalsJob.runInUIThread(ShowNatureProposalsJob.java:43)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:168)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:370)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:559)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:366)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:387)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3008)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1141)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1414)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1414)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1385)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1720)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1747)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1747)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1756)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:505)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:574)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:115)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1183)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:273)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1554)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4729)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1482)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2311)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:512)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1482)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2311)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:512)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1482)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2311)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:35.592
+!MESSAGE Classpath changed for project: airport-checkin-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:35.597
+!MESSAGE Classpath changed for project: quiz
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:35.600
+!MESSAGE Classpath changed for project: EmployeeDemo1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:35.602
+!MESSAGE Classpath changed for project: PlaneAPITest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:35.603
+!MESSAGE Classpath changed for project: SpringBootProjectJDBCCURDOperation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:41.514
+!MESSAGE Classpath changed for project: airport-boarding-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:41.612
+!MESSAGE Classpath changed for project: javaKafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:46.967
+!MESSAGE Classpath changed for project: ProductsMicroservice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:46.968
+!MESSAGE Classpath changed for project: SpringBootProject-2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:49.510
+!MESSAGE Classpath changed for project: config-server
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-07-10 08:42:49.609
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:51.600
+!MESSAGE Classpath changed for project: kafka-example
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-07-10 08:42:54.167
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:42:55.711
+!MESSAGE Classpath changed for project: SpringHibernateByRemesh
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:43:02.497
+!MESSAGE Classpath changed for project: userservice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:43:07.551
+!MESSAGE Classpath changed for project: Spring-security
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-07-10 08:43:18.436
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:43:22.991
+!MESSAGE Classpath changed for project: Spring-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:43:22.992
+!MESSAGE Classpath changed for project: SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:43:22.995
+!MESSAGE Classpath changed for project: SpringByDeepak
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:43:22.996
+!MESSAGE Classpath changed for project: jwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:43:46.926
+!MESSAGE Classpath changed for project: airport-booking-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:43:46.927
+!MESSAGE Classpath changed for project: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:43:56.692
+!MESSAGE Classpath changed for project: airport-booking-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:43:56.694
+!MESSAGE Classpath changed for project: Eureka-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:44:02.985
+!MESSAGE Classpath changed for project: api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:44:10.872
+!MESSAGE Classpath changed for project: api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:44:21.244
+!MESSAGE Classpath changed for project: question
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-07-10 08:44:51.778
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:45:00.675
+!MESSAGE Classpath changed for project: personal-finance-management-system
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-07-10 08:45:00.752
+!MESSAGE java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getBundles()" because the return value of "org.osgi.framework.Bundle.getBundleContext()" is null
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getBundles()" because the return value of "org.osgi.framework.Bundle.getBundleContext()" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getBundles()" because the return value of "org.osgi.framework.Bundle.getBundleContext()" is null
+	at com.microsoft.copilot.eclipse.core.utils.PlatformUtils.hasBundleWithPrefix(PlatformUtils.java:291)
+	at com.microsoft.copilot.eclipse.core.utils.PlatformUtils.getSupportedUriSchemes(PlatformUtils.java:281)
+	at com.microsoft.copilot.eclipse.core.lsp.LsStreamConnectionProvider.getInitializationOptions(LsStreamConnectionProvider.java:56)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:397)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 6 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-07-10 08:45:00.776
+!MESSAGE java.lang.RuntimeException: java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getBundles()" because the return value of "org.osgi.framework.Bundle.getBundleContext()" is null
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.RuntimeException: java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getBundles()" because the return value of "org.osgi.framework.Bundle.getBundleContext()" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture.uniExceptionally(CompletableFuture.java:994)
+	at java.base/java.util.concurrent.CompletableFuture$UniExceptionally.tryFire(CompletableFuture.java:974)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: java.lang.RuntimeException: java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getBundles()" because the return value of "org.osgi.framework.Bundle.getBundleContext()" is null
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$9(LanguageServerWrapper.java:475)
+	at java.base/java.util.concurrent.CompletableFuture.uniExceptionally(CompletableFuture.java:990)
+	... 9 more
+Caused by: java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getBundles()" because the return value of "org.osgi.framework.Bundle.getBundleContext()" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+	... 6 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getBundles()" because the return value of "org.osgi.framework.Bundle.getBundleContext()" is null
+	at com.microsoft.copilot.eclipse.core.utils.PlatformUtils.hasBundleWithPrefix(PlatformUtils.java:291)
+	at com.microsoft.copilot.eclipse.core.utils.PlatformUtils.getSupportedUriSchemes(PlatformUtils.java:281)
+	at com.microsoft.copilot.eclipse.core.lsp.LsStreamConnectionProvider.getInitializationOptions(LsStreamConnectionProvider.java:56)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:397)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 6 more
+
+!ENTRY org.eclipse.core.jobs 4 0 2026-07-10 08:45:06.909
+!MESSAGE Marketplace solutions available
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-07-10 08:45:06.909
+!MESSAGE An internal error occurred during: "Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getServiceReference(java.lang.Class)" because "bundleContext" is null
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-07-10 08:45:07.389
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:3.0.3
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:3.0.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:3.0.3
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2026-07-10 08:45:07.390
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:3.0.3
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2026-07-10 08:45:07.390
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:3.0.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-07-10 08:46:47.001
+!MESSAGE 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.21.0-GA during dependency collection step for project (use -X to see details)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:19.306
+!MESSAGE Classpath changed for project: Customer-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:24.202
+!MESSAGE Classpath changed for project: EmployeeDemo1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:24.245
+!MESSAGE Classpath changed for project: Eureka-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:24.246
+!MESSAGE Classpath changed for project: PlaneAPITest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:27.610
+!MESSAGE Classpath changed for project: Spring-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:27.612
+!MESSAGE Classpath changed for project: ProductsMicroservice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:30.362
+!MESSAGE Classpath changed for project: airport-flight-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:30.364
+!MESSAGE Classpath changed for project: SpringBootProjectJDBCCURDOperation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:36.848
+!MESSAGE Classpath changed for project: airport-pilot-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:36.850
+!MESSAGE Classpath changed for project: api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:45.795
+!MESSAGE Classpath changed for project: api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:46.200
+!MESSAGE Classpath changed for project: config-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:47:50.112
+!MESSAGE Classpath changed for project: department-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:48:00.140
+!MESSAGE Classpath changed for project: flight-booking
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:48:00.141
+!MESSAGE Classpath changed for project: javaKafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:48:00.142
+!MESSAGE Classpath changed for project: jwt
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-07-10 08:48:00.346
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:48:02.525
+!MESSAGE Classpath changed for project: kafka-example
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:48:02.526
+!MESSAGE Classpath changed for project: personal-finance-management-system
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:48:10.164
+!MESSAGE Classpath changed for project: question
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:48:15.961
+!MESSAGE Classpath changed for project: quiz
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:48:21.395
+!MESSAGE Classpath changed for project: userservice
+
+!ENTRY org.eclipse.core.jobs 4 0 2026-07-10 08:48:28.336
+!MESSAGE Marketplace solutions available
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-07-10 08:48:28.336
+!MESSAGE An internal error occurred during: "Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getServiceReference(java.lang.Class)" because "bundleContext" is null
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:06.920
+!MESSAGE Classpath changed for project: Employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:06.922
+!MESSAGE Classpath changed for project: EmployeeDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:10.788
+!MESSAGE Classpath changed for project: FMS-SpringBoot-Backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:10.789
+!MESSAGE Classpath changed for project: ProductService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:10.790
+!MESSAGE Classpath changed for project: SpringBoot
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-07-10 08:50:12.314
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:12.461
+!MESSAGE Classpath changed for project: SpringBoot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:12.462
+!MESSAGE Classpath changed for project: SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:12.463
+!MESSAGE Classpath changed for project: SpringBootProject-2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-07-10 08:50:13.091
+!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-23', falling back to workspace default
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:14.260
+!MESSAGE Classpath changed for project: airport-boarding-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:14.261
+!MESSAGE Classpath changed for project: SpringByDeepak
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:14.262
+!MESSAGE Classpath changed for project: SpringHibernateByRemesh
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:17.862
+!MESSAGE Classpath changed for project: airport-booking-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:21.525
+!MESSAGE Classpath changed for project: airport-checkin-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:28.689
+!MESSAGE Classpath changed for project: airport-security-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:28.690
+!MESSAGE Classpath changed for project: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:28.720
+!MESSAGE Classpath changed for project: eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:28.724
+!MESSAGE Classpath changed for project: service-registry
+
+!ENTRY org.eclipse.core.jobs 4 0 2026-07-10 08:50:36.465
+!MESSAGE Marketplace solutions available
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-07-10 08:50:36.469
+!MESSAGE An internal error occurred during: "Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getServiceReference(java.lang.Class)" because "bundleContext" is null
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-07-10 08:50:39.987
+!MESSAGE IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+!STACK 0
+java.util.concurrent.TimeoutException: IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:106)
+	at org.eclipse.core.internal.jobs.JobManager.withWriteLock(JobManager.java:551)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1408)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:396)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:654)
+	at org.eclipse.epp.internal.mpc.ui.discovery.MissingNatureDetector.triggerNatureLookup(MissingNatureDetector.java:93)
+	at org.eclipse.epp.internal.mpc.ui.discovery.MissingNatureDetector.lambda$0(MissingNatureDetector.java:57)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:459)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2465)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-07-10 08:50:39.988
+!MESSAGE Thread that is running the IJobChangeListener: Worker-3: Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)
+	at org.eclipse.epp.internal.mpc.ui.discovery.MissingNatureDetector.showProposalsIfReady(MissingNatureDetector.java:101)
+	at org.eclipse.epp.internal.mpc.ui.discovery.MissingNatureDetector$1.done(MissingNatureDetector.java:86)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEvent(JobListeners.java:160)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEventsAsync(JobListeners.java:140)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:80)
+	at org.eclipse.core.internal.jobs.JobManager.withWriteLock(JobManager.java:551)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:755)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:83)
+
+All thread infos: 
+"main" prio=6 Id=1 WAITING on java.util.concurrent.locks.ReentrantLock$NonfairSync@5d610934 owned by "Framework stop - Equinox Container: e69cfeaa-9112-4c40-b1a3-170c1728d59b" Id=116
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.ReentrantLock$NonfairSync@5d610934
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:754)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireInterruptibly(AbstractQueuedSynchronizer.java:1010)
+	at java.base@21.0.4/java.util.concurrent.locks.ReentrantLock$Sync.lockInterruptibly(ReentrantLock.java:161)
+	at java.base@21.0.4/java.util.concurrent.locks.ReentrantLock.lockInterruptibly(ReentrantLock.java:372)
+	at org.eclipse.osgi.container.SystemModule.waitForStop(SystemModule.java:142)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle.waitForStop(EquinoxBundle.java:328)
+	...
+
+"Reference Handler" daemon prio=10 Id=9 RUNNABLE
+	at java.base@21.0.4/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@21.0.4/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+	at java.base@21.0.4/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+
+"Finalizer" daemon prio=8 Id=10 WAITING on java.lang.ref.NativeReferenceQueue$Lock@1c078e10
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.NativeReferenceQueue$Lock@1c078e10
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:339)
+	at java.base@21.0.4/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+	at java.base@21.0.4/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	at java.base@21.0.4/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+	at java.base@21.0.4/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+"Signal Dispatcher" daemon prio=9 Id=11 RUNNABLE
+
+"Attach Listener" daemon prio=5 Id=12 RUNNABLE
+
+"Common-Cleaner" daemon prio=8 Id=18 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2428ab80
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2428ab80
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+	at java.base@21.0.4/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.4/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.4/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.base@21.0.4/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@21.0.4/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+"Notification Thread" daemon prio=9 Id=19 RUNNABLE
+
+"Active Thread: Equinox Container: e69cfeaa-9112-4c40-b1a3-170c1728d59b" prio=5 Id=24 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6ae52bbe
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6ae52bbe
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"Framework Event Dispatcher: Equinox Container: e69cfeaa-9112-4c40-b1a3-170c1728d59b" daemon prio=5 Id=26 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@3f98a77f
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@3f98a77f
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Refresh Thread: Equinox Container: e69cfeaa-9112-4c40-b1a3-170c1728d59b" daemon prio=5 Id=27 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@1fcfd992
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@1fcfd992
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Start Level: Equinox Container: e69cfeaa-9112-4c40-b1a3-170c1728d59b" daemon prio=5 Id=32 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@7e5a0540
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@7e5a0540
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Bundle File Closer" daemon prio=5 Id=34 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@3da179ee
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@3da179ee
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"SCR Component Actor" daemon prio=5 Id=35 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@47f8927a
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@47f8927a
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"EMF Reference Cleaner" daemon prio=5 Id=36 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@269ad05e
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@269ad05e
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@21.0.4/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+"Worker-JM" prio=5 Id=38 TIMED_WAITING on java.util.ArrayList@8c4a1c8
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.ArrayList@8c4a1c8
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+
+"Gogo shell" prio=5 Id=39 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3e1cc737
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3e1cc737
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"Worker-0: Updating workspace" prio=5 Id=42 RUNNABLE
+	at java.management@21.0.4/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.4/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+	at java.management@21.0.4/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:120)
+	at org.eclipse.core.internal.jobs.JobManager.withWriteLock(JobManager.java:551)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1408)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:396)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:654)
+	...
+
+"Git Repository Closer" daemon prio=6 Id=43 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@60fbf486
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@60fbf486
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@21.0.4/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+"logback-1" daemon prio=5 Id=44 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3886b2d1
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3886b2d1
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"Java indexing" daemon prio=4 Id=46 WAITING on org.eclipse.jdt.internal.core.search.indexing.IndexManager@22260694
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.jdt.internal.core.search.indexing.IndexManager@22260694
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:503)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager$$Lambda/0x000000010076d3d0.run(Unknown Source)
+	at java.base@21.0.4/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.4/java.lang.Thread.run(Thread.java:1583)
+
+"JNA Cleaner" daemon prio=6 Id=47 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@921887a
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@921887a
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+	at java.base@21.0.4/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.4/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.4/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+"EventAdmin Async Event Dispatcher Thread" daemon prio=6 Id=49 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@3641121c
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@3641121c
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Worker-3: Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)" prio=5 Id=52 BLOCKED on java.util.HashSet@3df4f9cc owned by "Worker-0: Updating workspace" Id=42
+	at org.eclipse.epp.internal.mpc.ui.discovery.MissingNatureDetector.showProposalsIfReady(MissingNatureDetector.java:101)
+	-  blocked on java.util.HashSet@3df4f9cc
+	at org.eclipse.epp.internal.mpc.ui.discovery.MissingNatureDetector$1.done(MissingNatureDetector.java:86)
+	at org.eclipse.core.internal.jobs.JobListeners$$Lambda/0x00000001002e3430.notify(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEvent(JobListeners.java:160)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEventsAsync(JobListeners.java:140)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:80)
+	at org.eclipse.core.internal.jobs.JobManager.withWriteLock(JobManager.java:551)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:755)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@3bdc3e3f
+
+"Worker-4: File Transport Cancel Handler" prio=5 Id=53 TIMED_WAITING
+	at java.base@21.0.4/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.4/java.lang.Thread.sleep(Thread.java:509)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader$CancelHandler.run(FileReader.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"Stop Language Server Task Processor" prio=5 Id=54 TIMED_WAITING on java.util.TaskQueue@29dc9d76
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.TaskQueue@29dc9d76
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.4/java.util.TimerThread.mainLoop(Timer.java:563)
+	at java.base@21.0.4/java.util.TimerThread.run(Timer.java:516)
+
+"Worker-11" prio=5 Id=63 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@2cbbb26f
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@2cbbb26f
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"pool-4-thread-1" prio=5 Id=64 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@12548416
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@12548416
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"pool-5-thread-1" prio=5 Id=65 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@48237da5
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@48237da5
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"Thread-7" daemon prio=8 Id=68 TIMED_WAITING
+	at java.base@21.0.4/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.4/java.lang.Thread.sleep(Thread.java:509)
+	at org.eclipse.linuxtools.internal.docker.core.DockerContainerRefreshManager$ContainerRefreshThread.run(DockerContainerRefreshManager.java:152)
+
+"LS-com.microsoft.copilot.eclipse.ls#dispatcher" prio=5 Id=69 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5597efa
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5597efa
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"Thread-8" prio=5 Id=76 TIMED_WAITING
+	at java.base@21.0.4/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.4/java.lang.Thread.sleep(Thread.java:509)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+
+"logback-2" daemon prio=5 Id=79 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3886b2d1
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3886b2d1
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"HttpClient-1-SelectorManager" daemon prio=5 Id=90 RUNNABLE (in native)
+	at java.base@21.0.4/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.4/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+	at java.base@21.0.4/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+	-  locked sun.nio.ch.Util$2@74008cf4
+	-  locked sun.nio.ch.WEPollSelectorImpl@4242d256
+	at java.base@21.0.4/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142)
+	at platform/java.net.http@21.0.4/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1366)
+
+"Worker-15" prio=5 Id=91 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@2cbbb26f
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@2cbbb26f
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-16: Synchronizing projects" prio=5 Id=92 WAITING on java.lang.Object@115f51ee
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@115f51ee
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:335)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:214)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:343)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	...
+
+"CompletableFutureDelayScheduler" daemon prio=5 Id=94 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5fbf5391
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5fbf5391
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"logback-3" daemon prio=5 Id=96 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3886b2d1
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3886b2d1
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"ForkJoinPool.commonPool-worker-3" daemon prio=5 Id=97 WAITING on java.util.concurrent.ForkJoinPool@2f2813be
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@2f2813be
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+"logback-4" daemon prio=5 Id=98 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3886b2d1
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3886b2d1
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@21.0.4/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"Stop Language Server Task Processor" prio=5 Id=99 TIMED_WAITING on java.util.TaskQueue@7b2cb46f
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.TaskQueue@7b2cb46f
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.4/java.util.TimerThread.mainLoop(Timer.java:563)
+	at java.base@21.0.4/java.util.TimerThread.run(Timer.java:516)
+
+"Consume LS error stream" daemon prio=5 Id=101 RUNNABLE (in native)
+	at java.base@21.0.4/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.4/java.io.FileInputStream.read(FileInputStream.java:263)
+	at org.springsource.ide.eclipse.commons.core.util.IOUtil.consume(IOUtil.java:26)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageServerProcessStreamConnector$1.run(STS4LanguageServerProcessStreamConnector.java:71)
+
+"LS-org.eclipse.languageserver.languages.springboot#listener-0" prio=5 Id=102 RUNNABLE (in native)
+	at java.base@21.0.4/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.4/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@21.0.4/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base@21.0.4/java.io.BufferedInputStream.implRead(BufferedInputStream.java:325)
+	at java.base@21.0.4/java.io.BufferedInputStream.read(BufferedInputStream.java:312)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:82)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base@21.0.4/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	...
+
+	Number of locked synchronizers = 2
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@10174ac5
+	- java.util.concurrent.ThreadPoolExecutor$Worker@2c12c79b
+
+"LS-org.eclipse.languageserver.languages.springboot#dispatcher" prio=5 Id=103 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3591a08d
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3591a08d
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.4/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+	at java.base@21.0.4/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.4/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"Framework stop - Equinox Container: e69cfeaa-9112-4c40-b1a3-170c1728d59b" prio=6 Id=116 TIMED_WAITING on java.util.Collections$SynchronizedSet@6e3193b4
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.Collections$SynchronizedSet@6e3193b4
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:1101)
+	at org.eclipse.jst.j2ee.internal.plugin.J2EEPlugin.stop(J2EEPlugin.java:552)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:903)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base@21.0.4/java.security.AccessController.executePrivileged(AccessController.java:809)
+	at java.base@21.0.4/java.security.AccessController.doPrivileged(AccessController.java:571)
+	...
+
+	Number of locked synchronizers = 2
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@5d610934
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@445aa898
+
+"ForkJoinPool.commonPool-worker-4" daemon prio=5 Id=118 TIMED_WAITING on java.util.concurrent.ForkJoinPool@2f2813be
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@2f2813be
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+"Worker-20" prio=5 Id=119 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@2cbbb26f
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@2cbbb26f
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-21" prio=5 Id=120 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@2cbbb26f
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@2cbbb26f
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-22" prio=5 Id=121 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@2cbbb26f
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@2cbbb26f
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-23: Updating Maven Project" prio=5 Id=122 TIMED_WAITING on org.eclipse.core.internal.jobs.Semaphore@561cd337
+	at java.base@21.0.4/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.Semaphore@561cd337
+	at java.base@21.0.4/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:45)
+	at org.eclipse.core.internal.jobs.OrderedLock.doAcquire(OrderedLock.java:191)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:125)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:100)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:87)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:125)
+	...
+
+"ForkJoinPool.commonPool-worker-5" daemon prio=5 Id=123 WAITING on java.util.concurrent.ForkJoinPool@2f2813be
+	at java.base@21.0.4/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@2f2813be
+	at java.base@21.0.4/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.4/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:50:42.131
+!MESSAGE Classpath changed for project: FlightTicket
+
+!ENTRY org.eclipse.core.jobs 4 0 2026-07-10 08:50:42.177
+!MESSAGE Marketplace solutions available
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-07-10 08:50:42.177
+!MESSAGE An internal error occurred during: "Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getServiceReference(java.lang.Class)" because "bundleContext" is null
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 0 2026-07-10 08:50:42.189
+!MESSAGE Marketplace solutions available
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-07-10 08:50:42.189
+!MESSAGE An internal error occurred during: "Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getServiceReference(java.lang.Class)" because "bundleContext" is null
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 0 2026-07-10 08:50:43.811
+!MESSAGE Marketplace solutions available
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-07-10 08:50:43.811
+!MESSAGE An internal error occurred during: "Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getServiceReference(java.lang.Class)" because "bundleContext" is null
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 0 2026-07-10 08:50:43.818
+!MESSAGE Marketplace solutions available
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-07-10 08:50:43.818
+!MESSAGE An internal error occurred during: "Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getServiceReference(java.lang.Class)" because "bundleContext" is null
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 0 2026-07-10 08:50:43.821
+!MESSAGE Marketplace solutions available
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-07-10 08:50:43.821
+!MESSAGE An internal error occurred during: "Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getServiceReference(java.lang.Class)" because "bundleContext" is null
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 0 2026-07-10 08:50:43.828
+!MESSAGE Marketplace solutions available
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-07-10 08:50:43.828
+!MESSAGE An internal error occurred during: "Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getServiceReference(java.lang.Class)" because "bundleContext" is null
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 0 2026-07-10 08:50:43.834
+!MESSAGE Marketplace solutions available
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-07-10 08:50:43.834
+!MESSAGE An internal error occurred during: "Search Marketplace for Project Nature support (org.hibernate.eclipse.console.hibernateNature)".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.getServiceReference(java.lang.Class)" because "bundleContext" is null
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverNatureSupportJob.run(DiscoverNatureSupportJob.java:48)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-07-10 08:50:45.707
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2026-07-10 08:51:27.248 -----------------------------------------------
+eclipse.buildId=4.25.0.202409101855
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-10 08:51:43.264
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-07-10 08:51:45.832
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-07-10 08:51:48.907
+!MESSAGE Logback config file: C:\MUKESH KUMAR WORK SPACE\Java8\Java8repeat\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-07-10 08:51:50.643
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-07-10 08:51:50.643
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-07-10 08:51:51.860
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-07-10 08:51:51.860
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-10 08:52:09.358
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-10 08:52:09.361
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-07-10 08:52:09.757
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.377
+!MESSAGE Boot project ADDED: Customer-Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.379
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.384
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.385
+!MESSAGE Boot project ADDED: Employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.387
+!MESSAGE Boot project ADDED: EmployeeDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.388
+!MESSAGE Boot project ADDED: EmployeeDemo1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.390
+!MESSAGE Boot project ADDED: Eureka-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.391
+!MESSAGE Boot project ADDED: FMS-SpringBoot-Backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.392
+!MESSAGE Boot project ADDED: FlightTicket
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.394
+!MESSAGE Boot project ADDED: PlaneAPITest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.395
+!MESSAGE Boot project ADDED: ProductService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.397
+!MESSAGE Boot project ADDED: ProductsMicroservice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.401
+!MESSAGE Boot project ADDED: Spring-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.403
+!MESSAGE Boot project ADDED: SpringBoot
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.404
+!MESSAGE Boot project ADDED: SpringBootProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.405
+!MESSAGE Boot project ADDED: SpringBootProject-2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.406
+!MESSAGE Boot project ADDED: SpringBootProjectJDBCCURDOperation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.407
+!MESSAGE Boot project ADDED: SpringByDeepak
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.408
+!MESSAGE Boot project ADDED: SpringHibernateByRemesh
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.410
+!MESSAGE Boot project ADDED: airport-boarding-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.411
+!MESSAGE Boot project ADDED: airport-booking-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.413
+!MESSAGE Boot project ADDED: airport-checkin-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-07-10 08:52:10.692
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Software\spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.25.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/MUKESH KUMAR WORK SPACE/Java8/Java8repeat/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1783653730691
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Software\spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.25.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.57.0.202409101848\servers\spring-boot-language-server\spring-boot-language-server-1.57.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:10.693
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-07-10 08:52:10.709
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13948
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-07-10 08:52:10.880
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.703
+!MESSAGE Boot project ADDED: airport-flight-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.706
+!MESSAGE Boot project ADDED: airport-pilot-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.709
+!MESSAGE Boot project ADDED: airport-security-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.711
+!MESSAGE Boot project ADDED: api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.712
+!MESSAGE Boot project ADDED: bootjpaexample
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.718
+!MESSAGE Boot project ADDED: config-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.719
+!MESSAGE Boot project ADDED: department-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.721
+!MESSAGE Boot project ADDED: eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.723
+!MESSAGE Boot project ADDED: flight-booking
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.724
+!MESSAGE Boot project ADDED: javaKafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.728
+!MESSAGE Boot project ADDED: jwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.731
+!MESSAGE Boot project ADDED: kafka-example
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.733
+!MESSAGE Boot project ADDED: personal-finance-management-system
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.734
+!MESSAGE Boot project ADDED: question
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.736
+!MESSAGE Boot project ADDED: quiz
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.737
+!MESSAGE Boot project ADDED: service-registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-07-10 08:52:14.738
+!MESSAGE Boot project ADDED: userservice
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:52:29.073
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.502.5 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:52:30.240
+!MESSAGE [Info]	[UndiciFetcher] HTTP settings changed; resetting Undici dispatchers. {
+  proxy: 'none',
+  noProxyCount: 0,
+  proxyStrictSSL: true,
+  hasProxyAuthorization: false,
+  hasProxyKerberosServicePrincipal: false
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-07-10 08:52:30.243
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:52:30.255
+!MESSAGE [Info]	[certificates] Removed 12 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:52:30.256
+!MESSAGE [Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 195 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:52:30.259
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Could not find any available embedding types. Error: noSession
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:52:30.262
+!MESSAGE [Info]	[AuthManager] checkAndUpdateStatus: no session found, priming token
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:52:30.486
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:52:30.688
+!MESSAGE [Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\Admin\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:52:30.774
+!MESSAGE [Info]	[ripgrep] Resolved ripgrep path: C:\Users\Admin\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-07-10 08:52:30.776
+!MESSAGE [Info]	[ripgrep] Set GITHUB_COPILOT_RIPGREP_PATH_OVERRIDE=C:\Users\Admin\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-07-10 08:52:31.638
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-07-10 08:52:32.608
+!MESSAGE [Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
