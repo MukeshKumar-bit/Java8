@@ -20,7 +20,10 @@ public class Main {
 		System.out.println("-----------------------------------------");
 		//print the name of all departments in the organization	
 		list.stream().map(Employee::getDepartment).distinct().forEach(System.out::println);
-		
+		System.out.println("-----------------------------------------");
+		//What is the average age of male and female employees
+		Map<String, Double> averageAge=list.stream().collect(Collectors.groupingBy(Employee::getGender,Collectors.averagingInt(Employee::getAge)));
+		System.out.println(averageAge);
 		
 
 	}
