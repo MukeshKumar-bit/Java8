@@ -34,6 +34,10 @@ public class Main {
 		//get the names of all employees who have joined after 2025
 		list.stream().filter(e->e.getYearsOfJoining()>2025).map(Employee::getName).forEach(System.out::println);
 		
+		//count the number of employees in each department
+		Map<String, Long> numberOfEmployee=list.stream().collect(Collectors.groupingBy(Employee::getDepartment,Collectors.counting()));
+		System.out.println(numberOfEmployee);
+		
 		
 
 	}
