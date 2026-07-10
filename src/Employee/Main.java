@@ -1,8 +1,10 @@
 package Employee;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -24,6 +26,11 @@ public class Main {
 		//What is the average age of male and female employees
 		Map<String, Double> averageAge=list.stream().collect(Collectors.groupingBy(Employee::getGender,Collectors.averagingInt(Employee::getAge)));
 		System.out.println(averageAge);
+		System.out.println("-----------------------------------------");
+		//get the details of higest paid employee in the organization
+		Optional<Employee> highestPaidSalary=list.stream().collect(Collectors.maxBy(Comparator.comparingDouble(Employee::getSalary)));
+		System.out.println(highestPaidSalary);
+		
 		
 
 	}
