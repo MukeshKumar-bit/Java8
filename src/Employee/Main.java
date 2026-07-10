@@ -13,7 +13,7 @@ public class Main {
 		list.add(new Employee(111, "mukesh", 32, "Male", "HR", 2011, 2500.0));
 		list.add(new Employee(112, "rakesh", 31, "Male", "software", 2012, 2600.0));
 		list.add(new Employee(113, "saket", 34, "Male", "HR", 2011, 2800));
-		list.add(new Employee(114,"radha",60,"female","HR",2015,4000));
+		list.add(new Employee(114,"radha",60,"female","HR",2026,4000));
 		
 		
 		//How many mail and female employees are there in the organization
@@ -30,6 +30,9 @@ public class Main {
 		//get the details of higest paid employee in the organization
 		Optional<Employee> highestPaidSalary=list.stream().collect(Collectors.maxBy(Comparator.comparingDouble(Employee::getSalary)));
 		System.out.println(highestPaidSalary);
+		System.out.println("------------------------------------------");
+		//get the names of all employees who have joined after 2025
+		list.stream().filter(e->e.getYearsOfJoining()>2025).map(Employee::getName).forEach(System.out::println);
 		
 		
 
