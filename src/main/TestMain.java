@@ -23,6 +23,14 @@ public class TestMain {
 		//using stream api to filer highest number print them
 		number.stream().sorted(Comparator.reverseOrder()).limit(1).forEach(System.out::println);
 		
+		//using stream api to find the sum of all number and print them
+		int sum=number.stream().mapToInt(Integer::intValue).sum();
+		System.out.println(sum);
+		
+		//Using stream api to find the average of all number and print them
+		number.stream().mapToInt(Integer::intValue).average().ifPresent(System.out::println);
+		
+		
 		
 		
 	}
