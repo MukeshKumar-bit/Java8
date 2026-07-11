@@ -30,6 +30,10 @@ public class TestMain {
 		//Using stream api to find the average of all number and print them
 		number.stream().mapToInt(Integer::intValue).average().ifPresent(System.out::println);
 		
+		//Using stream api to find the count of all number and print them
+		Long count=number.stream().count();
+		System.out.println(count);
+		
 		
 		
 		
