@@ -37,7 +37,7 @@ public class Main {
 		//count the number of employees in each department
 		Map<String, Long> numberOfEmployee=list.stream().collect(Collectors.groupingBy(Employee::getDepartment,Collectors.counting()));
 		System.out.println(numberOfEmployee);
-		
+		System.out.println("-------------------------------------------");
 		//what is the average salary of the each department
 		Map<String, Double> averageSalary=list.stream().collect(Collectors.groupingBy(Employee::getDepartment,Collectors.averagingDouble(Employee::getSalary)));
 		System.out.println(averageSalary);
