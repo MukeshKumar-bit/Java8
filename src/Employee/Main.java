@@ -21,7 +21,7 @@ public class Main {
 		System.out.println(countMaleAndFemale);
 		System.out.println("-----------------------------------------");
 		//print the name of all departments in the organization	
-		list.stream().map(Employee::getDepartment).distinct().forEach(System.out::println);
+  		list.stream().map(Employee::getDepartment).distinct().forEach(System.out::println);
 		System.out.println("-----------------------------------------");
 		//What is the average age of male and female employees
 		Map<String, Double> averageAge=list.stream().collect(Collectors.groupingBy(Employee::getGender,Collectors.averagingInt(Employee::getAge)));
@@ -37,12 +37,18 @@ public class Main {
 		//count the number of employees in each department
 		Map<String, Long> numberOfEmployee=list.stream().collect(Collectors.groupingBy(Employee::getDepartment,Collectors.counting()));
 		System.out.println(numberOfEmployee);
-		System.out.println("-------------------------------------------");
+		 System.out.println("-------------------------------------------");
 		//what is the average salary of the each department
 		Map<String, Double> averageSalary=list.stream().collect(Collectors.groupingBy(Employee::getDepartment,Collectors.averagingDouble(Employee::getSalary)));
 		System.out.println(averageSalary);
-		
+		System.out.println("----------------------------------------------");
+		//get the details of youngest male employee in the produce developer?
+		Optional<Employee> youngestMaleEmployee =list.stream().filter(e->e.getGender()=="Male" && e.getDepartment()=="HR ").min(Comparator.comparingInt(Employee::getAge));
+		System.out.println(youngestMaleEmployee);
+
 		//
+
+
 		
 		
 
