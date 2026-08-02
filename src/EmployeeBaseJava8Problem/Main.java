@@ -51,54 +51,51 @@ public class Main {
         System.out.println("============Find maximum age/oldest of employee in the organisation.=======================================");
         Optional<Employee> oldestEmp = empList.stream().max(Comparator.comparingInt(Employee::getAge));
         System.out.println(oldestEmp);
-
+//Print Average age of Male and Female Employees in the organisation
         System.out.println("================================Print Average age of Male and Female Employees in the organisation.====");
         Map<String, Double> avgOfMaleAndFemale = empList.stream().collect(Collectors.groupingBy(Employee::getGender, Collectors.averagingInt(Employee::getAge)));
         System.out.println(avgOfMaleAndFemale);
-
+//Print Average age of Male and Female Employees in each department.
         System.out.println("================================Print Average age of Male and Female Employees in each department.======");
-        empList.stream().collect(Collectors.groupingBy(Employee::getDeptName, Collectors.groupingBy(Employee::getGender, Collectors.averagingInt(Employee::getAge)))).forEach((dept, genderMap) -> genderMap.forEach((gender, avgAge) ->
-                System.out.println(dept + " - " + gender + ": " + avgAge)));
-
+        empList.stream().collect(Collectors.groupingBy(Employee::getDeptName, Collectors.groupingBy(Employee::getGender, Collectors.averagingInt(Employee::getAge)))).forEach((dept, genderMap) -> genderMap.forEach((gender, avgAge) -> System.out.println(dept + " - " + gender + ": " + avgAge)));
+//Print the number of employees in each department
         System.out.println("==================Print the number of employees in each department.==================");
         Map<String, Long> countOfEmployeeeachDepatment = empList.stream().collect(Collectors.groupingBy(Employee::getDeptName, Collectors.counting()));
         System.out.println(countOfEmployeeeachDepatment);
-
+//Find longest serving employees in the organization
         System.out.println("==================Find longest serving employees in the organization.===================");
         Optional<Employee> sinorEmployee = empList.stream().sorted(Comparator.comparingInt(Employee::getYearOfJoining)).findFirst();
         System.out.println(sinorEmployee);
-
+//Find longest serving employee in each department
         System.out.println("==================Find longest serving employee in each department=======================");
         Map<String, Optional<Employee>> longest = empList.stream().collect(Collectors.groupingBy(Employee::getDeptName, Collectors.minBy(Comparator.comparing(Employee::getYearOfJoining))));
         System.out.println(longest);
-
+//Find average age of gender in each department
         System.out.println("==================Find average age of gender in each department=======================");
-        Map<String, java.lang.Double> averageAgeGender =empList.stream().collect(Collectors.groupingBy(Employee::getGender,Collectors.averagingInt(Employee::getAge)));
+        Map<String, java.lang.Double> averageAgeGender = empList.stream().collect(Collectors.groupingBy(Employee::getGender, Collectors.averagingInt(Employee::getAge)));
         System.out.println(averageAgeGender);
-
+//Find youngest female employee in the organisation
         System.out.println("=================Find youngest female employee in the organisation.====================");
-        Optional<Employee> youngestFemale =empList.stream().filter(e->e.getGender()=="F").min(Comparator.comparingInt(Employee::getAge));
+        Optional<Employee> youngestFemale = empList.stream().filter(e -> e.getGender() == "F").min(Comparator.comparingInt(Employee::getAge));
         System.out.println(youngestFemale);
 
         //Find the youngest employee in each Department
         System.out.println("=================Find the youngest employee in each Department===========================");
-        Map<String,Optional<Employee>> youngestEmployeeDepartment=empList.stream().collect(Collectors.groupingBy(Employee::getDeptName,Collectors.minBy(Comparator.comparing(Employee::getYearOfJoining))));
+        Map<String, Optional<Employee>> youngestEmployeeDepartment = empList.stream().collect(Collectors.groupingBy(Employee::getDeptName, Collectors.minBy(Comparator.comparing(Employee::getYearOfJoining))));
         System.out.println(youngestEmployeeDepartment);
 
         //Find the Higest salary in the organization
         System.out.println("================Find the Higest salary in the organization");
-        Optional<Employee> higestsalary =empList.stream().sorted(Comparator.comparingDouble(Employee::getSalary).reversed()).findFirst();
+        Optional<Employee> higestsalary = empList.stream().sorted(Comparator.comparingDouble(Employee::getSalary).reversed()).findFirst();
         System.out.println(higestsalary);
 
         //Find the second Higest salary in the organization
         System.out.println("===============Find the second Higest salary in the organization==============");
-        java.util.Optional<Employee> secondHigestSalary =empList.stream().sorted(Comparator.comparingDouble(Employee::getSalary).reversed()).skip(1).findFirst();
-    System.out.println(secondHigestSalary);
-
-
-
-
-    }
+        java.util.Optional<Employee> secondHigestSalary = empList.stream().sorted(Comparator.comparingDouble(Employee::getSalary).reversed()).skip(1).findFirst();
+        System.out.println(secondHigestSalary);
 
 
     }
+
+
+}
